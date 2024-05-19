@@ -1,0 +1,21 @@
+<h2>Random Jokes Dashboard</h2>
+<h3>You can refresh to randomize again</h3>
+<div class="no-joke" *ngIf="filteredJokes.length === 0">
+  <p id="no-joke">No joke with this type</p>
+</div>
+<div class="joke-container" *ngFor="let joke of filteredJokes">
+  <div *ngIf="filteredJokes.length > 0">
+    <div class="container">
+      <p id="title">Joke Type :</p>
+      <p id="value">{{ joke.type }}</p>
+    </div>
+    <div class="container">
+      <p id="title">A :</p>
+      <p id="value">{{ joke.setup }}</p>
+    </div>
+    <div class="container">
+      <p id="title">B :</p>
+      <p id="value">{{ joke.punchline }}</p>
+    </div>
+  </div>
+</div>

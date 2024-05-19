@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(23, 62, 133);
+}
+
+#left,
+#right {
+  /* padding: 10px; */
+  text-align: center;
+}
+
+#left {
+  flex: 1;
+}
+
+#right {
+  flex: 3;
+}

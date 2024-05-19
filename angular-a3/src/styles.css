@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  background-image: linear-gradient(
+    to right,
+    rgb(213, 230, 245) 0%,
+    rgb(213, 230, 245) 25%,
+    aliceblue 25%,
+    aliceblue 100%
+  );
+  overflow-y: scroll;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,38 @@
+h3 {
+  color: rgb(111, 153, 190);
+}
+
+.no-joke {
+  margin-top: 10vh;
+}
+
+#no-joke {
+  text-align: center;
+}
+
+#title,
+#value {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.joke-container {
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-color: rgb(148, 182, 212);
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  display: flex;
+}
+
+#title {
+  font-weight: bold;
+}
+
+#value {
+  padding-left: 5px;
+}

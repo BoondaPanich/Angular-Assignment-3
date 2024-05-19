@@ -1,0 +1,24 @@
+<!-- <h2>SELECTION</h2> -->
+<div class="search-bar">
+  <h3 id="header">Search for Jokes</h3>
+  <input
+    id="search-bar"
+    type="text"
+    placeholder="Search for jokes"
+    [(ngModel)]="searchQuery"
+    (input)="searchJokes(searchQuery)"
+  />
+</div>
+<div class="filter-options">
+  <h3 id="header">Filter Jokes</h3>
+  <label *ngFor="let type of jokeTypes">
+    <input
+      type="radio"
+      name="filterType"
+      [value]="type"
+      (change)="filterJokes(type)"
+    />
+    {{ type }}
+    <br />
+  </label>
+</div>

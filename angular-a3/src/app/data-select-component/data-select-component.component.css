@@ -1,0 +1,31 @@
+.filter-options {
+  text-align: left;
+  padding: 15px;
+}
+
+#header {
+  text-align: left;
+}
+
+.search-bar {
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+#search-bar {
+  width: 45vh;
+  height: 5vh;
+  border-radius: 6px;
+  border: solid;
+  border-width: 3px;
+  border-color: rgb(129, 164, 196);
+}
+
+#search-bar::content {
+  text-align: center;
+}
+
+#search-bar::placeholder {
+  color: rgb(147, 180, 209);
+}
